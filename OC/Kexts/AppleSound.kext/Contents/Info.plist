@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.dynamix.IOKitPersonalitiesPatch</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>IOKitPatches</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>ApplenNVMeSSD</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IONVMeFamily</string>
+			<key>Chipset Name</key>
+			<string>SSD Controller</string>
+			<key>IOClass</key>
+			<string>IONVMeController</string>
+			<key>IOPCIMatch</key>
+			<string>0xa808144d 0x500215b7 0x500615b7</string>
+			<key>IOPCIPauseCompatible</key>
+			<true/>
+			<key>IOProbeScore</key>
+			<integer>200</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>IOUnitName</key>
+			<string>disk</string>
+			<key>Physical Interconnect</key>
+			<string>PCI-Express</string>
+			<key>Physical Interconnect Location</key>
+			<string>Internal</string>
+			<key>Vendor Name</key>
+			<string>Apple</string>
+		</dict>
+		<key>Intel 20 Series Chipset</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleAHCIPort</string>
+			<key>Chipset Name</key>
+			<string>20 Series Chipset</string>
+			<key>IOClass</key>
+			<string>AppleAHCI</string>
+			<key>IOPCIClassMatch</key>
+			<string>0x01060100&amp;0xffffff00</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0xa2828086 0x06d28086</string>
+			<key>IOProbeScore</key>
+			<integer>11000</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>Vendor Name</key>
+			<string>Intel</string>
+		</dict>
+		<key>Intel HDMI Audio - 100-series 0xa170</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.rehabman.driver.FakePCIID</string>
+			<key>FakeProperties</key>
+			<dict>
+				<key>RM,device-id</key>
+				<data>
+				cJ0AAA==
+				</data>
+			</dict>
+			<key>IOClass</key>
+			<string>FakePCIID</string>
+			<key>IOMatchCategory</key>
+			<string>FakePCIID</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0xa1708086</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>Intel HDMI Audio - 200-series 0xa2f0</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.rehabman.driver.FakePCIID</string>
+			<key>FakeProperties</key>
+			<dict>
+				<key>RM,device-id</key>
+				<data>
+				cKEAAA==
+				</data>
+			</dict>
+			<key>IOClass</key>
+			<string>FakePCIID</string>
+			<key>IOMatchCategory</key>
+			<string>FakePCIID</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0xa2f08086</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>Intel HDMI Audio - 300-series 0xa348 0x9dc8</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.rehabman.driver.FakePCIID</string>
+			<key>FakeProperties</key>
+			<dict>
+				<key>RM,device-id</key>
+				<data>
+				cKEAAA==
+				</data>
+			</dict>
+			<key>IOClass</key>
+			<string>FakePCIID</string>
+			<key>IOMatchCategory</key>
+			<string>FakePCIID</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0xa3488086 0x9dc88086</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>Intel I225-V</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.rehabman.driver.FakePCIID</string>
+			<key>FakeProperties</key>
+			<dict>
+				<key>RM,device-id</key>
+				<data>
+				8hUAAA==
+				</data>
+			</dict>
+			<key>IOClass</key>
+			<string>FakePCIID</string>
+			<key>IOMatchCategory</key>
+			<string>FakePCIID</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x15f28086</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Root</string>
+</dict>
+</plist>
