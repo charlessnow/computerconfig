@@ -443,7 +443,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -916,7 +916,7 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02006301QXPHCDJC</string>
+			<string>C02036405J9PHCDUE</string>
 			<key>ROM</key>
 			<data></data>
 			<key>SpoofVendor</key>
@@ -924,9 +924,9 @@
 			<key>SystemProductName</key>
 			<string>iMac20,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02C7MYWPN5T</string>
+			<string>C02DC0G9PN5T</string>
 			<key>SystemUUID</key>
-			<string>BA2C070C-691A-401F-BA34-FF93D379AC73</string>
+			<string>8E2D08AA-BA58-4A1B-86DB-20A61A9ED258</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -937,7 +937,7 @@
 			<key>FirmwareFeaturesMask</key>
 			<data>f//f/wAAAAA=</data>
 			<key>MLB</key>
-			<string>C02006301QXPHCDJC</string>
+			<string>C02036405J9PHCDUE</string>
 			<key>ROM</key>
 			<data></data>
 		</dict>
