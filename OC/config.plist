@@ -916,28 +916,28 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02005101GUPHCDUE</string>
+			<string>C02010609GU0000UE</string>
 			<key>ROM</key>
 			<data></data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>iMac20,1</string>
+			<string>iMac20,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02C6JZQPN5T</string>
+			<string>C02CD0SC046M</string>
 			<key>SystemUUID</key>
-			<string>E8BAC6B8-9688-44B9-B13D-A5F14FCDB932</string>
+			<string>B8C87B59-0594-4694-A305-0E2C06A42E54</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
 			<key>BID</key>
-			<string>Mac-CFF7D910A743CAAF</string>
+			<string>Mac-AF89B6D9451A490B</string>
 			<key>FirmwareFeatures</key>
 			<data>dvWP/QAAAAA=</data>
 			<key>FirmwareFeaturesMask</key>
 			<data>f//f/wAAAAA=</data>
 			<key>MLB</key>
-			<string>C02005101GUPHCDUE</string>
+			<string>C02010609GU0000UE</string>
 			<key>ROM</key>
 			<data></data>
 		</dict>
