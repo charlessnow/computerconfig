@@ -990,13 +990,7 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-<<<<<<< HEAD
 			<string>C02010609GU0000UE</string>
-=======
-			<string>C02008104GUPHCD1F</string>
-			<key>ProcessorType</key>
-			<integer>4105</integer>
->>>>>>> master
 			<key>ROM</key>
 			<data></data>
 			<key>SpoofVendor</key>
@@ -1006,15 +1000,9 @@
 			<key>SystemProductName</key>
 			<string>iMac20,2</string>
 			<key>SystemSerialNumber</key>
-<<<<<<< HEAD
 			<string>C02CD0SC046M</string>
 			<key>SystemUUID</key>
 			<string>B8C87B59-0594-4694-A305-0E2C06A42E54</string>
-=======
-			<string>C02C93YEPN5T</string>
-			<key>SystemUUID</key>
-			<string>B0CEA231-CC04-4DB6-B397-24B9CFCE4E03</string>
->>>>>>> master
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -1025,11 +1013,7 @@
 			<key>FirmwareFeaturesMask</key>
 			<data>f//f/wAAAAA=</data>
 			<key>MLB</key>
-<<<<<<< HEAD
 			<string>C02010609GU0000UE</string>
-=======
-			<string>C02008104GUPHCD1F</string>
->>>>>>> master
 			<key>ROM</key>
 			<data></data>
 			<key>SystemUUID</key>
